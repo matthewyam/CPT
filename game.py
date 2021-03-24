@@ -2,7 +2,7 @@ print("")
 print("")
 
 
-print("welcome to Virus Defender")
+print("Welcome to Virus Defender")
 
 print("")
 print("")
@@ -32,6 +32,7 @@ if action == "rules":
     print("HP:5 Atk:5")
     print("")
     print("Linux: This class is for all those people that end friendships with defence. It has high attack and low defence")
+    print("HP: 1 Atk: 10")
 
 
 if action =="play":
@@ -43,3 +44,7 @@ if action =="play":
         print("Choose an Operating System")
         print("")
         print("macOS")
+        print("")
+        print("Windows")
+        print("")
+        print("Linux")
