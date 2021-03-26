@@ -70,47 +70,63 @@ if actions or gostart =="play" or "yes":
                     cont1 == ("Press space and enter to continue")
                     if cont1 == u"\u0020":
                         print("")
-                        print("Attack")
-                        print("Defend")
-                        action = input("Choose an action: ").lower()
-
                         
 
-                        if action or fightcont == "defend":
-                            print("VPN (Use a VPN to mask your IP and trick the hacker)")
-                            print("Anitvirus (Uses McAfee to block hacker attacks)")
-                            defence = input("You choose: ").lower()
-                            if defence == "vpn":
-                                print("You have successfully evaded the hacker's DDOS")
-                                print("")
+                        uhp = 5
+                        end1 = 0
+
+                        while uhp>0:
+                            
+                            hp1 = 2
+                            
+                            while uhp != end1:
+
                                 print("Attack")
                                 print("Defend")
-                                fightcont = input("You choose: ")
+                                action = input("Choose an action: ").lower()
+                            
+                                if action == "defend":
+                                    print("VPN (Use a VPN to mask your IP and trick the hacker)")
+                                    print("Anitvirus (Uses McAfee to block hacker attacks)")
+                                    defence = input("You choose: ").lower()
+                                 
+                                    if defence == "vpn":
+                                    
+                                        print("You have successfully evaded the hacker's DDOS")
+                                        print("")
+                                        print("Attack")
+                                        print("Defend")
 
+                                    if defence == "antivirus":
+                                        uhp = uhp - 1
+                                        print("")
+                                        print("McAfee is utterly useless, allowing the Hacker to DOS you. You have lost 1 hp")
+                                        print("Your current HP: "+str(uhp))
+                                        cont1 = input("Press space and enter to continue")
+                                        print("")
+                                    
+                                if action == "attack":
+                                    print("")
+                                    print("Ransomeware (Encrypt all the hacker's files **Super effective against Hacka nub**)")
+                                    print("Trojan (Sends a Trojan to the hacker)")
+                                    attack = input("You choose: ").lower()
+                                    
+                                    
+                                    if attack == "ransomeware":
+                                        hp1 = hp1 - 5
+                                        print("You have encrypted all the hacker's files and he refuses to pays")
+                                        print("")
+                                        print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
+                                      
+                                      
+                                    if attack =="trojan":
+                                        hp1 = hp1 - 5
+                                        print("You have inflitrated the hacker's computer and deleted all his files")
+                                        print("")
+                                        print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
 
-                            if defence == "antivirus":
-                                print("McAfee is utterly useless, allowing the Hacker to DOS you. You have lost 3 hp")
-                                cont1 = input("Press space and enter to continue")
-                                print("")
-                                print("Attack")
-                                print("Defend")
-                                fightcont = input("You choose: ")
-                                
-                            if action or fightcont == "attack":
-                                print("")
-                                print("Ransomeware (Encrypt all the hacker's files **Super effective against Hacka nub**)")
-                                print("Trojan (Sends a Trojan to the hacker)")
-                                attack = input("You choose: ").lower()
-
-                            if attack == "ransomeware":
-                                print("You have encrypted all the hacker's files and he refuses to pays")
-                                print("")
-                                print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
-
-                            if attack =="trojan":
-                                print("You have inflitrated the hacker's computer and deleted all his files")
-                                print("")
-                                print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
+                        print("Game Over")
+                        exit
 
 
 
