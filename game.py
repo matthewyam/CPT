@@ -1,6 +1,7 @@
-print("")
-print("")
+import winsound
 
+print("")
+print("")
 
 print("Welcome to Virus Defender")
 
@@ -14,6 +15,11 @@ print("")
 print("=============")
 print("|   Rules   |")
 print("=============")
+print("")
+print("=============")
+print("|   Music   |")
+print("=============")
+
 
 print("")
 actions = input("What would you like to do? ").lower()
@@ -40,10 +46,34 @@ if actions == "rules":
     print("")
     print("Hacka Nub: This hacker is a beginner and just started learning to DDOS")
     print("HP:2 Atk:2")
+    print("")
+    print("Hacka Nub+")
+    print("HP:5 Atk:3")
+    print("")
     gostart = input("Ready to start?(Yes or Yes) ").lower()
 
+if actions == "music":
+    print("None (Default)")
+    print("Candyland")
+    print("Meme")
+    mosic = input("You choose: ").lower()
 
-if actions or gostart =="play" or "yes":
+    if mosic == "none":
+        mstart = input("Ready to start? (Yes or Yes): ").lower
+
+    if mosic == "candyland":
+        import winsound
+        winsound.PlaySound("Candyland.wav", winsound.SND_ASYNC + winsound.SND_LOOP)
+        mstart = input("Ready to start? (Yes or Yes): ").lower
+
+    if mosic == "meme":
+        import winsound
+        winsound.PlaySound("meme.wav", winsound.SND_ASYNC + winsound.SND_LOOP)
+        mstart = input("Ready to start? (Yes or Yes): ").lower
+
+
+
+if actions or gostart or mstart =="play" or "yes":
     print("")
     cont = input("Press space and enter to continue")
     if cont == u"\u0020":
@@ -76,6 +106,7 @@ if actions or gostart =="play" or "yes":
                         end1 = 0    
                         hp1 = 2
                         hhp1 = 0
+                        hp2 = 5
 
                         while hp1 != hhp1:
                                 
@@ -98,7 +129,7 @@ if actions or gostart =="play" or "yes":
                                         print("Defend")
 
                                     if defence == "antivirus":
-                                        uhp = uhp - 5
+                                        uhp = uhp - 1
                                         print("")
                                         print("McAfee is utterly useless, allowing the Hacker to DOS you. You have lost 1 hp")
                                         print("Your current HP: "+str(uhp))
@@ -125,9 +156,15 @@ if actions or gostart =="play" or "yes":
                                         print("")
                                         
                                     print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
+                                    print("The FBI have swatted him and is now arrested")
+                                    print("")
+                                    print("HP fully restored")
+
 
                                 print("Game Over")
-                    exit
+
+
+                            
 
 
 
