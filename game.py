@@ -117,7 +117,7 @@ if actions or gostart or mstart =="play" or "yes":
 
                         while hp1 != hhp1 and win == 0:
                                 
-                            while uhp != end1:
+                            while uhp != end1 and win == 0:
 
                                 print("Attack")
                                 print("Defend")
@@ -166,18 +166,19 @@ if actions or gostart or mstart =="play" or "yes":
                                     print("")
                                     print("HP fully restored")
                                     win = win + 1
-                                    end1 = end1 + 1
+
 
                     
                     
                         print("A wild Hacker Man has appeared")
-                            cont1 == ("Press space and enter to continue")
-                            if cont1 == u"\u0020":
-                                print("")
+                        cont1 == ("Press space and enter to continue")
+                            
+                        if cont1 == u"\u0020":
+                            print("")
 
                         while hp2 != hhp2 and win == 1:
                          
-                            while uhp != end2:
+                            while uhp != end2 and win == 1:
 
                                 print("Attack")
                                 print("Defend")
@@ -256,5 +257,4 @@ if actions or gostart or mstart =="play" or "yes":
                     print("")
                     print("A wild Hacka Nub has appeared")
                     cont3 == ("Press space and enter to continue")
-                    if cont3 == u"\u0020":
                        
