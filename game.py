@@ -45,7 +45,7 @@ if actions == "rules":
     print("Enemy Info")
     print("")
     print("Hacker Nub: This hacker is a beginner and just started learning to DDOS")
-    print("HP:2 Atk:2")
+    print("HP:2 Atk:1")
     print("")
     print("Hacka Man")
     print("HP:5 Atk:3")
@@ -56,6 +56,7 @@ if actions == "music":
     print("None (Default)")
     print("Candyland")
     print("Meme")
+    print("SASAGEYO")
     mosic = input("You choose: ").lower()
 
     if mosic == "none":
@@ -69,6 +70,11 @@ if actions == "music":
     if mosic == "meme":
         import winsound
         winsound.PlaySound("meme.wav", winsound.SND_ASYNC + winsound.SND_LOOP)
+        mstart = input("Ready to start? (Yes or Yes): ").lower
+        
+    if mosic == "sasageyo":
+        import winsound
+        winsound.PlaySound("sasageyo.wav", winsound.SND_ASYNC + winsound.SND_LOOP)
         mstart = input("Ready to start? (Yes or Yes): ").lower
 
 
@@ -114,6 +120,15 @@ if actions or gostart or mstart =="play" or "yes":
                         hp2 = 5
                         hhp2 = 0
                         end2 = 0
+
+                        #Boss 3
+                        hp3 = 10
+                        hhp3 = 0
+                        end 3 = 0
+
+                        #finish
+                        done = 0
+
 
                         while hp1 != hhp1 and win == 0:
                                 
@@ -166,6 +181,7 @@ if actions or gostart or mstart =="play" or "yes":
                                     print("")
                                     print("HP fully restored")
                                     win = win + 1
+                                    uhp = uhp - uhp + 5
 
 
                     
@@ -195,9 +211,9 @@ if actions or gostart or mstart =="play" or "yes":
                                         print("")
 
                                     if defence1 == "factory reset":
-                                        uhp = uhp - 1
+                                        uhp = uhp - 5
                                         print("")
-                                        print("McAfee is utterly useless, allowing the Hacker to DOS you. You have lost 1 hp")
+                                        print("You reset your computer to prevent the hacker from stealing any information, but you forgot to back up your data so its now all lost. You lost 5 HP")
                                         print("Your current HP: "+str(uhp))
                                         cont1 = input("Press space and enter to continue")
                                         print("")
@@ -225,6 +241,77 @@ if actions or gostart or mstart =="play" or "yes":
                                     print("The FBI have swatted him and is now arrested")
                                     print("")
                                     print("HP fully restored")
+                                    win = win + 1
+                                    uhp = uhp - uhp + 5
+
+
+                   
+                   
+                        while hp1 != hhp1=3 and win == 2:
+                                
+                            while uhp != end3 and win == 2:
+
+                                print("Attack")
+                                print("Defend")
+                                action = input("Choose an action: ").lower()
+                            
+                                if action == "defend":
+                                    print("Encryption (Encrypt your files)")
+                                    print("Cloud (Upload your data to a generic cloud storage)")
+                                    defence = input("You choose: ").lower()
+                                 
+                                    if defence == "encryption":
+                                    
+                                        print("You have successfully encrypted all your files")
+                                        print("")
+
+
+                                    if defence == "cloud":
+                                        uhp = uhp - 1
+                                        print("")
+                                        print("Using generic cloud storage allowed the server hosting company to see, leak and sell your information.  You have lost 1 HP")
+                                        print("Your current HP: "+str(uhp))
+                                        cont1 = input("Press space and enter to continue")
+                                        print("")
+                                    
+                                if action == "attack":
+                                    print("")
+                                    print("Virus Use generic virus to attack the hackers's computer")
+                                    print("Trojan (Sends a Trojan to the hacker)")
+                                    attack = input("You choose: ").lower()
+                                    
+                                    
+                                    if attack == "virus":
+                                        hp3 = hp3 - 5 
+                                        print("You have encrypted all the hacker's files and he refuses to pays")
+                                        print("")
+                                        
+                                      
+                                      
+                                    if attack =="keylogger":
+                                        hp3 = hp3 - 5
+                                        print("You have logged all the hacker's information and the FBi is ready to swat him")
+                                        print("")
+
+                                win = win + 1
+                                uhp = uhp - uhp + 5
+
+                        while done == 1 and win ==3:
+                                print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER ***")
+                                print("The FBI have swatted him and is now arrested")
+                                print("")
+                                print("
+                                print(" _____                             _         _       _   _")                 
+                                print("/  __ \                           | |       | |     | | (_)")                
+                                print("| /  \/ ___  _ __   __ _ _ __ __ _| |_ _   _| | __ _| |_ _  ___  _ __  ___") 
+                                print("| |    / _ \| '_ \ / _` | '__/ _` | __| | | | |/ _` | __| |/ _ \| '_ \/ __|")
+                                print("| \__/\ (_) | | | | (_| | | | (_| | |_| |_| | | (_| | |_| | (_) | | | \__ \ ")
+                                print("\____/\___/|_| |_|\__, |_|  \__,_|\__|\__,_|_|\__,_|\__|_|\___/|_| |_|___/")
+                                print("                   __/ |")                                                  
+                                print("                  |___/ ")                                                  
+
+                                print("")
+
 
 
 
