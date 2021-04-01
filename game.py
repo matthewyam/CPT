@@ -184,7 +184,7 @@ if actions or gostart or mstart =="play" or "yes":
                                         print("You have inflitrated the hacker's computer and deleted all his files")
                                         print("")
                                         
-                                    print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKA NUB ***")
+                                    print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER NUB ***")
                                     print("The FBI have swatted him and is now arrested")
                                     print("")
                                     print("HP fully restored")
@@ -285,6 +285,28 @@ if actions or gostart or mstart =="play" or "yes":
                             print("Game Over")
                             exit
         
+
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You collaps the bed wasted after spending 8 hours taking out two hackers.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")]
+                        print("You roll around the bed for a few minutes fully prepared to sleep when suddenly an alarm goes off.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You roll across the bed and realize that it was 8 AM and you have worked throughout the night.  You have work in half an hour")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You get a phone call from your boss and he informes you that there was a very experienced hacker and if you take him out, you can take ther day off. ")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("*** You have learned 4 new skills ***")
+                        
+
                         print("A wild Hacker Boss has appeared")
                         cont1 == input("Press space and enter to continue")
 
@@ -367,23 +389,270 @@ if actions or gostart or mstart =="play" or "yes":
 
 
 
-
-
-
-
-
-
-                            
-
-"""
-
         
         if system == "linux":
             print("")
             print("You have chosen Linux")
             cont2 = input("Press space and enter to continue")
             if cont2 == u"\u0020":
-               print("A")
+               print("")
+                print("In the deepest darkest part of the web, the most dangerous place, there lies hackers.  You have been hired by the FBI to take them out.  You will have to fight back against their viruses and counterattack with you own")
+                cont1 = input("Press space and enter to continue")
+                if cont1 == u"\u0020":
+                    print("")
+                    print("A wild Hacker Nub has appeared")
+                    cont1 == ("Press space and enter to continue")
+                    if cont1 == u"\u0020":
+                        print("")
+                        
+                        #Universal
+                        win = 0
+                        uhp = 10
+                        
+                        #boss 1
+                        end1 = 0    
+                        hp1 = 2
+                        hhp1 = 0
+
+                        #Boss 2 
+                        hp2 = 5
+                        hhp2 = 0
+                        end2 = 0
+
+                        #Boss 3
+                        hp3 = 10
+                        hhp3 = 0
+                        end3 = 0
+
+                        #finish
+                        done = 0
+
+
+                        while hp1 != hhp1 and win < 1:
+                                
+                            while win < 1:
+
+                                print("Attack")
+                                print("Defend")
+                                action = input("Choose an action: ").lower()
+                            
+                                if action == "defend":
+                                    print("Immunity (Use a VPN to mask your IP and trick the hacker)")
+                                    defence = input("You choose: ").lower()
+                                    
+                                    if defence == "immunity":
+                                    
+                                        print("Immune to all attacks")
+                                        print("")
+                                    
+                                if action == "attack":
+                                    print("")
+                                    print("Ransomeware (Encrypt all the hacker's files)")
+                                    print("Trojan (Sends a Trojan to the hacker)")
+                                    attack = input("You choose: ").lower()
+                                    
+                                    
+                                    if attack == "ransomeware":
+                                        hp1 = hp1 - 2 
+                                        print("You have encrypted all the hacker's files and he refuses to pays")
+                                        print("")
+                                        
+                                        
+                                        
+                                    if attack =="trojan":
+                                        hp1 = hp1 - 2
+                                        print("You have inflitrated the hacker's computer and deleted all his files")
+                                        print("")
+                                        
+                                    print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER NUB ***")
+                                    print("The FBI have swatted him and is now arrested")
+                                    print("")
+                                    print("HP fully restored")
+                                    win = win - win + 1
+                                    uhp = uhp - uhp + 5
+
+
+
+                        if uhp == end1:
+                            print("Game Over")
+                            exit
+
+
+                        cont1 = input("Press space and enter to continue")
+
+                        print("")
+                        print("You are finally done dealing with the hacker and you are very tired.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+
+                        print("")
+                        print("Suddenly you get a phone call saying that there is a hacker trying to break into the FBI system.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+
+                        print("")
+                        print("You get out of bed and hop on your computer to take this person out")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+
+                        print("** You have learned 3 new skills **")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+
+                        print("A wild Hacker Man has appeared")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+
+                        while hp2 != hhp2 and win < 2 and hp1 == 0:
+                            
+                            while win < 2:
+
+                                print("Attack")
+                                print("Defend")
+                                action1 = input("Choose an action: ").lower()
+                            
+                                if action1 == "defend":
+                                    print("Immunity (Use safe mode to stop the hacker from accessing your files)")
+                                    print("Factory Reset (Reset you device and lose the hacker)")
+                                    defence1 = input("You choose: ").lower()
+                                    
+                                    if defence1 == "immunity":
+                                    
+                                        print("Immune to all attack")
+                                        print("")
+
+                                    if defence1 == "factory reset":
+                                        uhp = uhp - 10
+                                        win = win + 1
+                                        hp2 = hp2 - 5
+
+                                        print("")
+                                        print("You reset your computer to prevent the hacker from stealing any information, but you forgot to back up your data so its now all lost. You lost 5 HP")
+                                        print("Your current HP: "+str(uhp))
+                                        cont1 = input("Press space and enter to continue")
+                                        print("")
+                                    
+                                if action1 == "attack":
+                                    print("")
+                                    print("Adware (Spams Ads on the hacker's screen annoying them)")
+                                    print("Spyware (Spys on the hacker and steals information)")
+                                    attack1 = input("You choose: ").lower()
+                                    
+                                    
+                                    if attack1 == "adware":
+                                        hp2 = hp2 - 5
+                                        print("You have overloaded the hacker's computer with ads and it is now bricked")
+                                        print(hp2)
+                                        print("")
+                                        
+                                        
+                                        
+                                    if attack1 =="spyware":
+                                        hp2 = hp2 - 5
+                                        print("You have stolen enough information about him and the FBI have his location ready to be swatted")
+                                        print(hp2)
+                                        print("")
+                                        
+                                    print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER MAN ***")
+                                    print("The FBI have swatted him and is now arrested")
+                                    print("")
+                                    print("HP fully restored")
+                                    win = win + 1
+                                    uhp = uhp - uhp + 5
+
+                        if uhp == end2:
+                            print("Game Over")
+                            exit
+        
+
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You collaps the bed wasted after spending 8 hours taking out two hackers.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")]
+                        print("You roll around the bed for a few minutes fully prepared to sleep when suddenly an alarm goes off.")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You roll across the bed and realize that it was 8 AM and you have worked throughout the night.  You have work in half an hour")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("You get a phone call from your boss and he informes you that there was a very experienced hacker and if you take him out, you can take ther day off. ")
+                        print("")
+                        cont1 = input("Press space and enter to continue")
+                        print("")
+                        print("*** You have learned 4 new skills ***")
+                        
+
+                        print("A wild Hacker Boss has appeared")
+                        cont1 == input("Press space and enter to continue")
+
+
+
+                        while hp3 != hhp3 and win < 4 and hp2 == 0:
+                            
+                            while win <4:
+
+                                print("Attack")
+                                print("Defend")
+                                action = input("Choose an action: ").lower()
+                            
+                                if action == "defend":
+                                    print("Immunity (Immune to all attack)")
+                                    defence = input("You choose: ").lower()
+                                    
+                                    if defence == "immunity":
+                                    
+                                        print("Immune to all attacks")
+                                        print("")
+                                    
+                                if action == "attack":
+                                    print("")
+                                    print("Virus (Use generic virus to attack the hackers's computer")
+                                    print("Keylogger (Log the hacker's activity)")
+                                    attack = input("You choose: ").lower()
+                                    
+                                    
+                                    if attack == "virus":
+                                        hp3 = hp3 - 10 
+                                        print("You have sent a virus to the hacker and it is attacking his PC")
+                                        print("Hacker HP: "hp3)
+                                        print("")
+                                        
+                                        
+                                        
+                                    if attack =="keylogger":
+                                        hp3 = hp3 - 10
+                                        print("You have logged part the hacker's information.")
+                                        print("Hacker HP: "hp3)
+                                        print("")
+
+                                    win = win + 1
+                                    uhp = uhp - uhp + 5
+
+
+                    if uhp == end3:
+                        print("Game Over")
+                        exit
+
+                        while done == 1 and win == 3 and hp3 == 0:
+                            print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER ***")
+                            print("The FBI have swatted him and is now arrested")
+                            print("")
+                            print("")
+                            print(" _____                             _         _       _   _")                 
+                            print("/  __ \                           | |       | |     | | (_)")                
+                            print("| /  \/ ___  _ __   __ _ _ __ __ _| |_ _   _| | __ _| |_ _  ___  _ __  ___") 
+                            print("| |    / _ \| '_ \ / _` | '__/ _` | __| | | | |/ _` | __| |/ _ \| '_ \/ __|")
+                            print("| \__/\ (_) | | | | (_| | | | (_| | |_| |_| | | (_| | |_| | (_) | | | \__ \ ")
+                            print("\____/\___/|_| |_|\__, |_|  \__,_|\__|\__,_|_|\__,_|\__|_|\___/|_| |_|___/")
+                            print("                   __/ |")                                                  
+                            print("                  |___/ ")                                                  
+
+                            print("")
 
 
         if system == "macos":
