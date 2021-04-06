@@ -263,7 +263,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 == "adware":
                                         hp2 = hp2 - 5
                                         print("You have overloaded the hacker's computer with ads and it is now bricked")
-                                        print(hp2)
                                         print("")
                                         
                                         
@@ -271,7 +270,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 =="spyware":
                                         hp2 = hp2 - 5
                                         print("You have stolen enough information about him and the FBI have his location ready to be swatted")
-                                        print(hp2)
                                         print("")
                                         
                                     print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER MAN ***")
@@ -316,6 +314,7 @@ if actions or gostart or mstart =="play" or "yes":
                             
                             while win <3:
 
+                                print("")
                                 print("Attack")
                                 print("Defend")
                                 action = input("Choose an action: ").lower()
@@ -363,8 +362,9 @@ if actions or gostart or mstart =="play" or "yes":
                                         print("Hacker HP: ",hp3)
                                         print("")
 
-                                    win = win + 1
+                                    win = win + 0.5
                                     uhp = uhp - uhp + 5
+                                    done = done + 0.5
 
 
                         if uhp == end3:
@@ -545,7 +545,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 == "adware":
                                         hp2 = hp2 - 5
                                         print("You have overloaded the hacker's computer with ads and it is now bricked")
-                                        print(hp2)
                                         print("")
                                         
                                         
@@ -553,7 +552,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 =="spyware":
                                         hp2 = hp2 - 5
                                         print("You have stolen enough information about him and can be reported to the proper authorities")
-                                        print(hp2)
                                         print("")
                                         
                                     print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER MAN ***")
@@ -674,7 +672,7 @@ if actions or gostart or mstart =="play" or "yes":
                     print("")
                     print("A wild Hacka Nub has appeared")
                     cont3 == ("Press space and enter to continue")
-                    if cont1 == u"\u0020":
+                    if cont3 == u"\u0020":
                         print("")
                         
                         #Universal
@@ -815,7 +813,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 == "backroom deals":
                                         hp2 = hp2 - 5
                                         print("You do a backroom deal wiht the hacker and you find his location while making the deal")
-                                        print(hp2)
                                         print("")
                                         
                                         
@@ -823,7 +820,6 @@ if actions or gostart or mstart =="play" or "yes":
                                     if attack1 =="exchange":
                                         hp2 = hp2 - 5
                                         print("You trade him Bapple devices that you have put trackers in")
-                                        print(hp2)
                                         print("")
                                         
                                     print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER MAN ***")
@@ -840,7 +836,7 @@ if actions or gostart or mstart =="play" or "yes":
 
                         cont1 = input("Press space and enter to continue")
                         print("")
-                        print("Skightly irritated after two hackers attacking you, you go punch a punching bag full of money to release stress.")
+                        print("Slightly irritated after two hackers attacking you, you go punch a punching bag full of money to release stress.")
                         print("")
                         cont1 = input("Press space and enter to continue")
                         print("")
@@ -864,6 +860,7 @@ if actions or gostart or mstart =="play" or "yes":
                             
                             while win <3:
 
+                                print("")
                                 print("Attack")
                                 print("Defend")
                                 action = input("Choose an action: ").lower()
@@ -884,7 +881,7 @@ if actions or gostart or mstart =="play" or "yes":
                                     attack = input("You choose: ").lower()
                                     
                                     
-                                    if attack == "FBI":
+                                    if attack == "fbi":
                                         hp3 = hp3 - 10 
                                         print("You have sent the FBI to take out the hacker and they find his IP")
                                         print("Hacker HP: ",hp3)
