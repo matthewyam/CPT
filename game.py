@@ -368,8 +368,8 @@ if actions or gostart or mstart =="play" or "yes":
 
 
                         if uhp == end3:
-                        print("Game Over")
-                        exit
+                            print("Game Over")
+                            exit
 
                         if done == 1 and win == 3 and hp3 == 0:
                             print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER ***")
@@ -904,8 +904,8 @@ if actions or gostart or mstart =="play" or "yes":
 
 
                         if uhp == end3:
-                        print("Game Over")
-                        exit
+                            print("Game Over")
+                            exit
 
                         if done == 1 and win == 3 and hp3 == 0:
                             print("*** YOU HAVE SUCESSFULLY BEATEN THE HACKER ***")
