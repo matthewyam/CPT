@@ -3,7 +3,7 @@ import winsound
 print("")
 print("")
 
-print("Welcome to Virus Defender")
+print("Welcome to Hacker Defender")
 
 print("")
 print("")
@@ -242,7 +242,7 @@ if actions or gostart or mstart =="play" or "start":
                                     
                                     if defence1 == "safe mode":
                                     
-                                        print("You have successfully bocked the hacker from seeing your files")
+                                        print("You have successfully blocked the hacker from seeing your files")
                                         print("")
 
                                     if defence1 == "factory reset":
