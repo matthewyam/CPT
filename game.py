@@ -54,10 +54,10 @@ if actions == "rules":
     print("Hacker Boss: The big boss of the hacker trio")
     print("HP: 10")
     print("")
-    gostart = input("Start Game or Choose Music? (Start or Music) ").lower()
+    gostart = input("Ready to choose Music? (Yes or Yes) ").lower()
         
     
-if actions or gostart == "music":
+if actions or gostart == "music" or "yes":
     print("None (Default)")
     print("Candyland")
     print("Meme")
