@@ -48,16 +48,16 @@ if actions == "rules":
     print("Hacker Nub: This hacker is a beginner and just started learning to DDOS")
     print("HP:2")
     print("")
-    print("Hacker Man")
+    print("Hacker Man: The more advance hacker and the manager of the hacker nub")
     print("HP:5")
     print("")
-    print("Hacker Boss")
+    print("Hacker Boss: The big boss of the hacker trio")
     print("HP: 10")
     print("")
-    gostart = input("Ready to start?(Yes or Yes) ").lower()
+    gostart = input("Start Game or Choose Music? (Start or Music) ").lower()
         
     
-if actions == "music":
+if actions or gostart == "music":
     print("None (Default)")
     print("Candyland")
     print("Meme")
@@ -85,7 +85,7 @@ if actions == "music":
     
     
 
-if actions or gostart or mstart =="play" or "yes":
+if actions or gostart or mstart =="play" or "start":
     print("")
     cont = input("Press space and enter to continue")
     
