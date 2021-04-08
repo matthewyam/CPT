@@ -1,3 +1,10 @@
+'''
+Filename: game.py
+Description: This program is a text based RPG 
+Author:Yam.M
+Created On:22/03/2021
+
+'''
 import winsound
 
 print("")
@@ -100,6 +107,8 @@ if actions or gostart or mstart =="play" or "start":
         print("")
         system = input("Choose an Operating System: ").lower()
     
+        #Windows
+
         if system == "windows":
             print("")
             print("You have chosen Windows")
@@ -394,7 +403,8 @@ if actions or gostart or mstart =="play" or "start":
 
 
 
-        
+        #Linux
+
         if system == "linux":
             print("")
             print("You have chosen Linux")
@@ -662,7 +672,7 @@ if actions or gostart or mstart =="play" or "start":
                             exit
 
 
-
+        #MacOS
         if system == "macos":
             print("")
             print("You have chosen macOS")
